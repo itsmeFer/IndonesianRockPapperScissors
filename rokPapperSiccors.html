@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>batuGuntingKertas</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="judul"><h1>Rock Paper Sicors by Ferdinand s</h1></div>
+    <section class="rock">
+      <button
+        onclick="
+        const mathRandom = Math.random()
+            let computerMove = '';
+
+            if (mathRandom >= 0 && mathRandom < 1/3){
+                computerMove = 'Rock';
+            } else if (mathRandom >= 1/3 && mathRandom < 1/2 ) {
+                computerMove = 'Paper';
+            } else if (mathRandom >= 1/2 && mathRandom < 1 ) {
+                computerMove = 'Siccros';
+            }
+        
+            let resault = '';
+
+            if (computerMove === 'Rock'){
+                resault = 'IMBANG BOS!!!!!!'
+            } else if (computerMove === 'Paper') {
+                resault = 'KALAH DEK AOWKOWOKW'
+            } else if (computerMove === 'Siccros') {
+                resault = 'HOKI DEKKK'
+            }
+
+            alert (`U PICK Rock n COMPYUTAH PIK ${computerMove}. dannnnnn hasilnya adalahhhhhh ${resault}`)
+        "
+      >
+        <img src="Hand/Raised fist.png" alt="" />
+        <p>Rock</p>
+      </button>
+    </section>
+    <section class="papper">
+      <button
+        onclick="
+        const mathRandom = Math.random()
+            let computerMove = '';
+
+            if (mathRandom >= 0 && mathRandom < 1/3){
+                computerMove = 'Rock';
+            } else if (mathRandom >= 1/3 && mathRandom < 1/2 ) {
+                computerMove = 'Paper';
+            } else if (mathRandom >= 1/2 && mathRandom < 1 ) {
+                computerMove = 'Siccros';
+            }
+        
+            let resault = '';
+
+            if (computerMove === 'Rock'){
+                resault = 'ANJAY MENANG!!!!!!'
+            } else if (computerMove === 'Paper') {
+                resault = 'IMBANG DECK'
+            } else if (computerMove === 'Siccros') {
+                resault = 'JELEK AMAT NASIBLU DECK... KALAH!!'
+            }
+
+            alert (`U PICK papper n COMPYUTAH PIK ${computerMove}. dannnnnn hasilnya adalahhhhhh ${resault}`)
+        "
+      >
+        <img src="Hand/Hand with fingers splayed.png" alt="" />
+        <p>Papper</p>
+      </button>
+    </section>
+
+    <section class="Siccros">
+      <button
+        onclick="
+            const mathRandom = Math.random()
+                let computerMove = '';
+
+                if (mathRandom >= 0 && mathRandom < 1/3){
+                    computerMove = 'Rock';
+                } else if (mathRandom >= 1/3 && mathRandom < 1/2 ) {
+                    computerMove = 'Paper';
+                } else if (mathRandom >= 1/2 && mathRandom < 1 ) {
+                    computerMove = 'Siccros';
+                }
+            
+                let resault = '';
+
+                if (computerMove === 'Rock'){
+                    resault = 'BLOK!!! KALAH '
+                } else if (computerMove === 'Paper') {
+                    resault = 'BOLEH LAH, MENANG'
+                } else if (computerMove === 'Siccros') {
+                    resault = 'NT DEK, IMBANG'
+                }
+
+                alert (`U PICK Siccros n COMPYUTAH PIK ${computerMove}. dannnnnn hasilnya adalahhhhhh ${resault}`)
+    "
+      >
+        <img src="Hand/Victory hand.png" alt="" />
+        <p>Sicors</p>
+      </button>
+    </section>
+  </body>
+</html>

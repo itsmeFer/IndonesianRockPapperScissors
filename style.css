@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fffbf1;
+  justify-content: center;
+  text-align: center;
+  min-height: 200vh;
+}
+
+.judul {
+  align-items: center;
+  background-color: slategray;
+  height: 6rem;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.judul h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 1.4rem;
+}
+
+.rock {
+  background-color: #aac9ce;
+  margin: 2rem 7%;
+  border-radius: 30px;
+}
+
+.rock img {
+  background-color: wheat;
+  border: none;
+}
+
+.rock p {
+  background-color: none;
+}
+
+.papper {
+  background-color: #c9bbc8;
+  margin: 2rem 7%;
+  border-radius: 30px;
+}
+
+.papper img {
+  background-color: wheat;
+
+  border: none;
+}
+
+.Siccros {
+  background-color: #e5c1cd;
+  margin: 2rem 7%;
+  border-radius: 30px;
+}
+
+.Siccros img {
+  background-color: wheat;
+}
